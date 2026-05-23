@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-FLOW</title>
+    <link rel="stylesheet" href="aibuddy.css" id="premiumStyle" disabled>
+    <link rel="stylesheet" href="aibasic.css" id="basicStyle">
+</head>
+<body>
+
+<div class="PremiumUI">
+<div id="homePage">
+    <div class="header">
+        <h2 id="greeting"></h2>
+        <p id="clock"></p>
+    </div>
+        <h1>YOUR AI XD 🤖</h1>
+    <div class="head">
+        <input id="bar" type="text" placeholder="Search something...">
+        <button class="search">SEARCH</button>
+    </div>
+
+    <div class="sections">
+        <button id="historybtn">Search History</button>
+        <button id="exam">Exam-Mode</button>
+        <button id="rumour">RUMOUR?</button>
+    </div>
+</div>
+
+<div id="resultPage">
+    <div class="page-card">
+        <button class="close-btn">← Back</button>
+        <h2 id="resultText"></h2>
+        <div id="searchdata" class="searchdata">Results will appear here...</div>
+    </div>
+</div>
+
+<div id="third">
+    <div class="rumourpage">
+        <button class="close-btn">← Back</button>
+        <h2 id="rumourhead">LOL !! WHAT RUMOUR BROUGHT YOU BACK HERE?</h2>
+        <input type="search" class="searchrum"> 
+        <button class="go">FIND</button>  
+    </div>
+</div>
+<div id="rcard">
+    <p>PREMIUM VERSION ONLY</p>
+</div>
+
+<div id="historyPage">
+    <div class="history-card">
+        <button class="close-btn">⬅ Back</button>
+        <h2>Search History</h2>
+        <ul class="history-list"></ul>
+        <button id="clearHistory">Clear History</button>
+    </div>
+</div>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- PREMIUM BUTTON -->
+<div class="topBar">
+
+    <button id="basicBtn">
+        <i class="fa-solid fa-house"></i>
+        Basic
+    </button>
+
+    <button id="premiumBtn">
+        <i class="fa-solid fa-crown"></i>
+        Premium
+    </button>
+
+</div>
+</div>
+<div id="premiumCard">
+    <div class="premiumBox">
+        <button id="closePremium">
+        <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h2>PREMIUM FEATURES</h2>
+        <ul>
+            <li>Special Neon Theme</li>
+            <li>Access to Rumor Section</li>
+            <li>Try NEW Exam Mode</li>
+            <li>Last 20 History</li>
+            <li>Get Related Images</li>
+        </ul>
+        
+    <input type="password" id="premiumPass" placeholder="Password">
+    <button id="unlockBtn">
+    <i class="fa-solid fa-lock"></i>
+    Unlock Premium
+    </button>
+
+    </div>
+
+</div>
+
+<script src="aibasic.js" defer></script>
+<script src="aistudy.js" defer></script>
+<script src="main.js" defer></script>
+</body>
+</html>
